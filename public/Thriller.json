@@ -1,0 +1,32 @@
+[
+    {
+        "id": "01",
+        "thriller_books_name": "3 A.M",
+        "thriller_books_image": "https://i.ibb.co/mvxFzPb/download-3.jpg",
+        "author_name": "Nic Pirog",
+        "short_description": "This novel follows Thomas Prescott, a former Seattle homicide detective, who is lured back into action when his nemesis, the Ice Man, returns to wreak havoc in his hometown. With the clock ticking, Prescott must race against time to stop the Ice Man's deadly game."
+    },
+    
+    {
+        "id": "02",
+        "thriller_books_name": "The Adventures of Sherlock Holmes",
+        "thriller_books_image": "https://i.ibb.co/MPyjWRg/download-8.jpg",
+        "author_name": "Sir Arthur Conan",
+        "short_description": "This collection of short stories features some of Sherlock Holmes's most famous cases, including A Scandal in Bohemia,The Red-Headed League, and The Adventure of the Speckled Band."
+    },
+    {
+        "id": "03",
+        "thriller_books_name": "Unforessen",
+        "thriller_books_image": "https://i.ibb.co/WBWv4Hd/57908881.jpg",
+        "author_name": "Nic Pirog",
+        "short_description": "When a series of bizarre murders plague a small town in Maine, Thomas Prescott is called in to investigate. As he digs deeper, he uncovers a shocking conspiracy that threatens to unravel the fabric of society."
+    },
+    {
+        "id": "04",
+        "thriller_books_name": "Vampire academy: shadow kiss",
+        "thriller_books_image": "https://i.ibb.co/PxpH9ZZ/download-9.jpg",
+        "author_name": "Richelle Mead",
+        "short_description": "'Shadow Kiss' is the third book in the 'Vampire Academy' series by Richelle Mead. In this installment, Rose Hathaway, a dhampir guardian-in-training, is still reeling from the traumatic events of the previous book. As she continues her education at St. Vladimir's Academy, tensions rise between the Moroi and the guardians as the threat of Strigoi attacks looms large."
+    }
+
+]

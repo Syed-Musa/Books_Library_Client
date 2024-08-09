@@ -1,0 +1,30 @@
+[
+    {
+        "id": "01",
+        "popular_books_name": "To Kill a Mockingbird",
+        "popular_books_image": "https://i.ibb.co/tpm93K5/download-27.jpg",
+        "author_name": "Harper Lee",
+        "short_description": "A timeless classic set in the American South during the Great Depression, this novel follows young Scout Finch as she navigates issues of racial injustice and moral integrity, epitomized by her father, Atticus Finch, a lawyer defending a black man wrongly accused of raping a white woman."
+    },
+    {
+        "id": "02",
+        "popular_books_name": "Harry Potter and the Philosopher's Stone",
+        "popular_books_image": "https://i.ibb.co/yhbWWTX/download-5.jpg",
+        "author_name": "J.K. Rowling ",
+        "short_description": "The first book in the iconic Harry Potter series introduces readers to the magical world of Hogwarts School of Witchcraft and Wizardry, following the adventures of young wizard Harry Potter as he discovers his true identity and battles the dark wizard Voldemort."
+    },
+    {
+        "id": "03",
+        "popular_books_name": "The Silent Patient",
+        "popular_books_image": "https://i.ibb.co/GT4N084/download-6.jpg",
+        "author_name": "Alex Michaelides",
+        "short_description": "In this gripping psychological thriller, Alicia Berenson, a famous painter, is accused of murdering her husband and then suddenly stops speaking. Theo Faber, a psychotherapist, becomes obsessed with uncovering the truth behind her silence, leading to shocking revelations."
+    },
+    {
+        "id": "04",
+        "popular_books_name": "The Hunger Games",
+        "popular_books_image": "https://i.ibb.co/4m3B2fm/download-7.jpg",
+        "author_name": "Suzanne Collins",
+        "short_description": "Set in a dystopian future, this gripping novel follows Katniss Everdeen as she volunteers to take her sister's place in a televised fight to the death known as the Hunger Games, exposing the brutality of a society divided between the wealthy Capitol and oppressed districts."
+    }
+]

@@ -1,0 +1,30 @@
+[
+    {
+        "id": "01",
+        "more_books_name": "ChatGPT & AI Millionear Books",
+        "more_books_image": "https://i.ibb.co/1XdjRjT/download-25.jpg",
+        "author_name": "Mehedi Hasan Rifat",
+        "Rating": "8/10"
+    },
+    {
+        "id": "02",
+        "more_books_name": "Arjun Somogro",
+        "more_books_image": "https://i.ibb.co/L58j3V9/download-26.jpg",
+        "author_name": "Somresh Majumder",
+        "Rating": "8.5/10"
+    },
+    {
+        "id": "03",
+        "more_books_name": "Shesh Bikeler Meye",
+        "more_books_image": "https://i.ibb.co/bXLkmNp/download-20.jpg",
+        "author_name": "Jahir Rayhan",
+        "Rating": "8/10"
+    },
+    {
+        "id": "04",
+        "more_books_name": "Oshomapto Attojiboni",
+        "more_books_image": "https://i.ibb.co/7Yc4W4Y/download-28.jpg",
+        "author_name": "Sheikh Mujibur Rahman",
+        "Rating": "9/10"
+    }
+]

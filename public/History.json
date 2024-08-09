@@ -1,0 +1,32 @@
+[
+    {
+        "id": "01",
+        "historical_books_name": "The Rise and Fall of the Third Reich",
+        "historical_books_image": "https://i.ibb.co/tsyN6dG/download.png",
+        "author_name": "William L. Shirer",
+        "short_description": "A comprehensive historical account of Nazi Germany, tracing its origins, rise to power, and eventual collapse, offering insights into Adolf Hitler's regime, its ideology, and its impact on the world."
+    },
+    
+    {
+        "id": "01",
+        "historical_books_name": "The Guns of August",
+        "historical_books_image": "https://i.ibb.co/NtN4bCh/download-1.jpg",
+        "author_name": "Barbara W. Tuchman",
+        "short_description": "A gripping narrative of the events leading up to World War I, examining the political, military, and diplomatic decisions that ultimately plunged Europe into a devastating conflict, with a particular focus on the crucial first month of the war."
+    },
+    {
+        "id": "01",
+        "historical_books_name": "Genghis Khan and the Making of the Modern World",
+        "historical_books_image": "https://i.ibb.co/DMtLxVk/download-2.jpg",
+        "author_name": "Jack Weatherford",
+        "short_description": "This book provides a comprehensive look at the life and legacy of Genghis Khan, the legendary Mongol conqueror. Weatherford explores how Genghis Khan's military strategies, administrative innovations, and cultural exchanges shaped the world and laid the foundation for the modern era."
+    },
+    {
+        "id": "01",
+        "historical_books_name": "Osman's Dream: The History of the Ottoman Empire",
+        "historical_books_image": "https://i.ibb.co/CbrYCbT/lg-RHEN7-SLlh1-YF90-Ii-DCG0b-QPVp-Ayb-Pm-Ngi-Go-Zocq-R.jpg",
+        "author_name": "Caroline Finkel",
+        "short_description": "This comprehensive history offers a detailed examination of the rise and fall of the Ottoman Empire, from its humble origins as a small Anatolian principality to its status as a vast multi-ethnic empire that spanned three continents. Finkel explores the political, social, and cultural developments that shaped the empire's trajectory over seven centuries."
+    }
+
+]

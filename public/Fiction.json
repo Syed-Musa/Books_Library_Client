@@ -1,0 +1,31 @@
+[
+    {
+        "id": "01",
+        "fiction_books_name": "The Martian",
+        "fiction_books_image": "https://i.ibb.co/xSfC1TW/download-11.jpg",
+        "author_name": "Andy Weir",
+        "short_description": "Stranded alone on Mars after a mission goes awry, astronaut Mark Watney must rely on his ingenuity and resourcefulness to survive until rescue is possible. Weir's novel is a thrilling tale of survival, problem-solving, and the resilience of the human spirit."
+    },
+    
+    {
+        "id": "02",
+        "fiction_books_name": "Ender's Game",
+        "fiction_books_image": "https://i.ibb.co/4ZbjRS0/download-12.jpg",
+        "author_name": "Orson Scott",
+        "short_description": "In a future where humanity is at war with an alien species, young prodigy Ender Wiggin is recruited into a military academy to train as a commander. As he rises through the ranks, Ender must navigate complex ethical dilemmas and confront his own humanity. Card's novel is a compelling exploration of leadership, empathy, and the consequences of war."
+    },
+    {
+        "id": "03",
+        "fiction_books_name": "Altered Carbon",
+        "fiction_books_image": "https://i.ibb.co/zf5VYzY/download-13.jpg",
+        "author_name": "Richard K. Morgan",
+        "short_description": "Set in a future where consciousness can be transferred between bodies, or 'sleeves' former soldier Takeshi Kovacs is hired to investigate a wealthy man's apparent suicide. As Kovacs delves deeper into the case, he uncovers a conspiracy that challenges his understanding of identity and morality. Morgan's novel is a gritty and action-packed cyberpunk thriller."
+    },
+    {
+        "id": "04",
+        "fiction_books_name": "Old Man's War",
+        "fiction_books_image": "https://i.ibb.co/y6PH9Sb/images-1.jpg",
+        "author_name": "John Scalzi",
+        "short_description": "In a future where humanity is at war with alien species across the galaxy, elderly citizens of Earth are recruited to join the Colonial Defense Forces and fight for the survival of the human race. Retired schoolteacher John Perry is one such recruit, and he soon finds himself thrust into a universe of interstellar conflict, advanced technology, and moral ambiguity."
+    }
+]

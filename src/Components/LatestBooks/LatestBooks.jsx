@@ -1,5 +1,6 @@
 import { useEffect, useState } from "react";
 import LatestBooksCard from "./LatestBooksCard";
+import { Link } from "react-router-dom";
 
 const LatestBooks = () => {
     const [famouse, setFamouse] = useState([]);
@@ -17,6 +18,7 @@ const LatestBooks = () => {
                     famouse?.map(famouse => <LatestBooksCard key={famouse.id} famouse={famouse}></LatestBooksCard>)
                 }
             </div>
+            <Link to='/allbooks'><button className="btn bg-green-500 text-white font-bold font-serif ml-[550px] mt-10 mb-5">More Books</button></Link>
         </div>
     );
 };

@@ -12,9 +12,9 @@ const Navbar = () => {
 
     const navItems = <>
         <li className="font-bold font-serif text-xs"><Link to='/'>Home</Link></li>
-        <li className="font-bold font-serif text-xs"><Link>Add Books</Link></li>
-        <li className="font-bold font-serif text-xs"><Link>All Books</Link></li>
-        <li className="font-bold font-serif text-xs"><Link>Borrowed Books</Link></li>
+        <li className="font-bold font-serif text-xs"><Link to='/addbooks'>Add Books</Link></li>
+        <li className="font-bold font-serif text-xs"><Link to='/allbooks'>All Books</Link></li>
+        <li className="font-bold font-serif text-xs"><Link to='/borrowedbooks'>Borrowed Books</Link></li>
         
     </>
 

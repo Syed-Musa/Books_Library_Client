@@ -9,6 +9,10 @@ import SignUp from './Pages/LoginSignUp/SignUp';
 import SignIn from './Pages/LoginSignUp/SignIn';
 import AuthProvider from './Providers/AuthProviders';
 import PrivateRoute from './Providers/PrivateRoutes';
+import AddBooks from './Pages/AddBooks/AddBooks';
+import AllBooks from './Pages/AllBooks/AllBooks';
+import AllBooksDtl from './Pages/AllBooks/AllBooksDtl';
+import UpdatePage from './Pages/Update/UpdatePage';
 
 
 const router = createBrowserRouter([
@@ -21,9 +25,27 @@ const router = createBrowserRouter([
         element: <Home></Home>
       },
       {
+        path: '/addbooks',
+        element: <AddBooks></AddBooks>
+      },
+      {
+        path: '/allbooks',
+        element: <AllBooks></AllBooks>
+      },
+      {
+        path: '/allbooks/:id',
+        element: <PrivateRoute><AllBooksDtl></AllBooksDtl></PrivateRoute>,
+        loader: ({params}) => fetch(`http://localhost:5000/allbooks/${params.id}`)
+      },
+      {
         path: '/famouse/:id',
         element: <PrivateRoute><LatestBooksDetails></LatestBooksDetails></PrivateRoute>,
         loader: ({params}) => fetch(`http://localhost:5000/famouse/${params.id}`)
+      },
+      {
+        path: '/updateBooks/:id',
+        element: <UpdatePage></UpdatePage>,
+        loader: ({params}) => fetch(`http://localhost:5000/allbooks/${params.id}`)
       },
       {
         path: '/signup',

@@ -38,13 +38,13 @@ const AllBooksDtl = () => {
     return (
         <div>
             <div className="mt-10">
-                <div className="flex justify-between gap-5">
+                <div className="grid grid-cols-1 lg:grid-cols-2">
                     <img className="h-[500px]" src={data?.books_image} alt="" />
                     {/* <div className="flex justify-between text-3xl font-medium font-serif bg-blue-500 p-3 text-white">
                         
                         
                     </div> */}
-                    <div>
+                    <div className="ml-5">
                         <h2 className="text-3xl font-bold font-serif">{data.books_name}</h2>
                         <h3 className="font-medium my-3 font-serif text-xl">Artist by: <span className="italic ml-2">{data?.author_name}</span></h3>
                         <hr />
@@ -65,7 +65,7 @@ const AllBooksDtl = () => {
                         moreBooks?.map(more => <LatestMore key={more.id} more={more}></LatestMore>)
                     }
                 </div>
-                <Link to='/'><button className="btn bg-green-500 hover:text-blue-700 hover:bg-white font-bold font-serif uppercase text-white ml-[550px] mb-5">Back</button></Link>
+                <Link to='/'><button className="btn bg-green-500 hover:text-blue-700 hover:bg-white font-bold font-serif uppercase text-white lg:ml-[550px] ml-[45%] mb-5">Back</button></Link>
             </div>
         </div>
     );

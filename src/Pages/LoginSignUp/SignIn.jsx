@@ -42,9 +42,9 @@ const SignIn = () => {
     }
   
     return (
-      <div className="max-w-7xl mx-auto flex" data-aos="fade-up" data-aos-easing="linear" data-aos-duration="1500">
+      <div className="grid grid-cols-1 lg:grid-cols-2" data-aos="fade-up" data-aos-easing="linear" data-aos-duration="1500">
         <div className="hero">
-          <div className="hero-content flex-col ">
+          <div className="hero-content">
             
             <div className="card flex-shrink-0 w-full max-w-sm">
               <form onSubmit={handleLogin} className="card-body">
@@ -98,7 +98,7 @@ const SignIn = () => {
             </div>
           </div>
         </div>
-        <img className="w-3/5" src="../../../public/Images/login.jpg.jpg" alt="" />
+        <img className="w-5/6" src="../../../public/Images/login.jpg.jpg" alt="" />
       </div>
     );
   };

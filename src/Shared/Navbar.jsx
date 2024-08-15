@@ -62,11 +62,11 @@ const Navbar = () => {
                     {
                       user ? <>
                         <span className="font-bold">{user?.email}</span>
-                        <img className="w-4 lg:w-10 rounded-full" src={user?.photoURL} />
+                        <img className="w-8 ml-10 lg:w-10 rounded-full" src={user?.photoURL} />
                         <button onClick={handleSignOut} className="btn text-white bg-gradient-to-r from-blue-600 to-sky-400 italic">Sign Out</button>
                         </>
                         :
-                      <Link to="/login"><button className="btn text-white bg-gradient-to-r from-blue-600 to-sky-400 italic">Login</button></Link>
+                      <Link to="/login"><button className="btn text-white bg-green-500 font-serif">Login</button></Link>
                     }  
                   </ul>
                 </div>

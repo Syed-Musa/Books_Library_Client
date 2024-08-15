@@ -11,7 +11,7 @@ const Sci_FiBooks = () => {
 
     return (
         <div>
-            <h2 className="font-bold font-serif text-4xl mt-14 my-6 text-right mr-5">Sci-Fi Books</h2>
+            <h2 className="font-bold font-serif lg:text-4xl mb-10 text-2xl mt-14 my-6 lg:text-right text-center mr-5">Sci-Fi Books</h2>
             <div className="grid grid-cols-1 md:grid-cols-2 lg:grid-cols-3 gap-5">
                 {
                     fictionBooks?.map(fictions => <Sci_FiBooksPerCard key={fictions.id} ficitons={fictions}></Sci_FiBooksPerCard>)

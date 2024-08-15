@@ -11,7 +11,7 @@ const ThrillerBooks = () => {
 
     return (
         <div>
-            <h2 className="text-4xl font-bold font-serif mt-14 my-5 text-right mr-5">Thriller Books</h2>
+            <h2 className="lg:text-4xl text-2xl mb-10 font-bold font-serif mt-14 my-5 lg:text-right text-center mr-5">Thriller Books</h2>
             <div className="grid grid-cols-1 md:grid-cols-2 lg:grid-cols-3 gap-5">
                 {
                     thrillerBooks?.map(thriller => <ThrillerBooksCard key={thriller.id} thriller={thriller}></ThrillerBooksCard>)

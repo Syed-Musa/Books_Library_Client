@@ -98,7 +98,7 @@ const SignIn = () => {
             </div>
           </div>
         </div>
-        <img className="w-5/6" src="../../../public/Images/login.jpg.jpg" alt="" />
+        <img className="w-5/6" src="/Images/login.jpg.jpg" alt="" />
       </div>
     );
   };

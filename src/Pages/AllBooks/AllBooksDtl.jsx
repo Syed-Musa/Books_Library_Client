@@ -17,7 +17,7 @@ const AllBooksDtl = () => {
 
     const BorrowedBooks = ()=>{
         const value = { email:user.email, books_name: user.books_name, books_image: user.books_image, category: user.category, author_name: user.author_name }
-        fetch('http://localhost:5000/borrowedbooks',{
+        fetch('https://books-library-server-smoky.vercel.app/borrowedbooks',{
           method:'POST',
           headers:{
             'content-type':'application/json'

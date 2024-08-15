@@ -26,7 +26,7 @@ const AddBooks = () => {
         const newBooks = { books_name, author_name, category, num_of_page, Rating, details, publisher, books_image };
         console.log(newBooks);
 
-        fetch('http://localhost:5000/allbooks', {
+        fetch('https://books-library-server-smoky.vercel.app/allbooks', {
             method: 'POST',
             headers: {
                 'content-type': 'application/json'
@@ -49,7 +49,7 @@ const AddBooks = () => {
         })
 
         // try {
-        //     const response = await fetch('http://localhost:5000/allbooks', {
+        //     const response = await fetch('https://books-library-server-smoky.vercel.app/allbooks', {
         //         method: 'POST',
         //         headers: {
         //             'content-type': 'application/json'

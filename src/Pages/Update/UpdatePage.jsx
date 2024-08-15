@@ -21,7 +21,7 @@ const UpdatePage = () => {
         const UpdatedBooks = {books_image, books_name, author_name, category, num_of_page, Rating, details, publisher}
         console.log(UpdatedBooks);
 
-        fetch(`http://localhost:5000/allbooks/${_id}`, {
+        fetch(`https://books-library-server-smoky.vercel.app/allbooks/${_id}`, {
             method: 'PUT',
             headers: {
                 'content-type': 'application/json'

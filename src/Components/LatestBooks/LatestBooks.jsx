@@ -5,7 +5,7 @@ import { Link } from "react-router-dom";
 const LatestBooks = () => {
     const [famouse, setFamouse] = useState([]);
     useEffect(()=> {
-        fetch('http://localhost:5000/famouse')
+        fetch('https://books-library-server-smoky.vercel.app/famouse')
         .then(res => res.json())
         .then(data => setFamouse(data))
     })

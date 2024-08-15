@@ -35,17 +35,17 @@ const router = createBrowserRouter([
       {
         path: '/allbooks/:id',
         element: <PrivateRoute><AllBooksDtl></AllBooksDtl></PrivateRoute>,
-        loader: ({params}) => fetch(`http://localhost:5000/allbooks/${params.id}`)
+        loader: ({params}) => fetch(`https://books-library-server-smoky.vercel.app/allbooks/${params.id}`)
       },
       {
         path: '/famouse/:id',
         element: <PrivateRoute><LatestBooksDetails></LatestBooksDetails></PrivateRoute>,
-        loader: ({params}) => fetch(`http://localhost:5000/famouse/${params.id}`)
+        loader: ({params}) => fetch(`https://books-library-server-smoky.vercel.app/famouse/${params.id}`)
       },
       {
         path: '/updateBooks/:id',
         element: <UpdatePage></UpdatePage>,
-        loader: ({params}) => fetch(`http://localhost:5000/allbooks/${params.id}`)
+        loader: ({params}) => fetch(`https://books-library-server-smoky.vercel.app/allbooks/${params.id}`)
       },
       {
         path: '/signup',

@@ -4,7 +4,7 @@ import AllBooksPerCard from "./AllBooksPerCard";
 const AllBooks = () => {
     const [allbooks, setAllBooks] = useState([]);
     useEffect(()=> {
-        fetch('http://localhost:5000/allbooks')
+        fetch('https://books-library-server-smoky.vercel.app/allbooks')
         .then(res => res.json())
         .then(data => setAllBooks(data))
     }, [])

@@ -31,7 +31,7 @@ const Navbar = () => {
                       </label>
                     </div> 
                     <div className="flex-1 px-2 mx-2">
-                      <img className="w-20" src="../../public/Images/images-removebg-preview.png" alt="" />
+                      <img className="w-20" src="/Images/images-removebg-preview.png" alt="" />
                       <p className="text-3xl font-extrabold font-serif gap-2 text-black">Books_Gallery</p>
                     </div>
                     <div className="mr-20 hidden lg:block">

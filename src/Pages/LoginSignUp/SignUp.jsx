@@ -43,7 +43,7 @@ const SignUp = () => {
   
     return (
       <div className="grid grid-cols-1 lg:grid-cols-2" data-aos="fade-up" data-aos-easing="linear" data-aos-duration="1500">
-        <img className="w-5/6" src="../../../public/Images/login.jpg.jpg" alt="" />
+        <img className="w-5/6" src="/Images/login.jpg.jpg" alt="" />
         <div className="hero">
           <div className="hero-content">
             
